@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1199px) {
+
+  .triangle-row {
+    width: 940px;
+  }
+
+  .triangle-two {
+    margin-left: 160px;
+  }
+
+  .footer-right {
+    text-align: left;
+  }
+
+}

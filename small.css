@@ -1,0 +1,27 @@
+@media only screen and (max-width: 991px) {
+
+  .triangle-row {
+    width: 720px;
+  }
+
+  #triangle-left {
+    margin-left: 110px;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 55px solid rgba(34, 143, 113, 1);
+  }
+  #triangle-right {
+    margin-left: 390px;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 55px solid rgba(34, 143, 113, 1);
+  }
+
+  .triangle-two {
+    margin-left: 300px;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 55px solid rgba(202, 111, 78, .8);
+  }
+
+}
