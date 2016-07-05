@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding-top: 70px;
   font-size: 26px;
-  background-color: rgb(40, 63, 155);
+  background-color: rgb(16, 1, 101);
   color: white;
   font-family: 'BenchNine', sans-serif;
 }
@@ -47,7 +47,7 @@ p {
 
 
 .navigation {
-  background-color: rgba(40, 63, 155, .8);
+  background-color: rgba(16, 1, 101, .8);
   padding: 10px 0 10px 0;
   border: 0;
   margin-bottom: 0;
@@ -79,14 +79,9 @@ p {
 
 .sub-heading-section {
   background-color: white;
-  color: rgb(40, 63, 155);
+  color: rgb(16, 1, 101);
   padding: 100px 0 100px 0;
   text-align: center;
-}
-.sub-heading-section p {
-/*  width: 650px;
-  margin-left: auto;
-  margin-right: auto;*/
 }
 
 .product-section-label {
@@ -116,7 +111,7 @@ p {
 }
 .product-title-one {
   border-top: 8px solid black;
-  background-color: rgba(34, 143, 113, 1);
+  background-color: rgb(117, 189, 163);
   padding: 75px 90px 75px 90px;
   margin: 0;
 }
@@ -135,7 +130,7 @@ p {
   height: 0;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
-  border-top: 75px solid rgba(34, 143, 113, 1);
+  border-top: 75px solid rgb(117, 189, 163);
 }
 #triangle-right {
   position: relative;
@@ -146,13 +141,13 @@ p {
   height: 0;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
-  border-top: 75px solid rgba(34, 143, 113, 1);
+  border-top: 75px solid rgb(117, 189, 163);
 }
 .product-body-one {
   position: relative;
   top: -225px;
   padding: 250px 0 100px 0;
-  background-color: rgba(34, 143, 113, .3);
+  background-color: rgb(186, 222, 208);
   color: black;
 }
 .product-body-one h3 {
@@ -173,7 +168,7 @@ p {
   text-align: center;
 }
 .product-two {
-  background-color: rgba(202, 111, 78, .5);
+  background-color: rgb(238, 179, 170);
   padding: 75px 0 75px 0;
 }
 .product-title-two {
@@ -182,7 +177,7 @@ p {
   margin: auto;
   padding: 52px 0 60px 0;
   border-top: 8px solid black;
-  background-color: rgba(202, 111, 78, .8);
+  background-color: rgb(224, 113, 96);
 }
 .triangle-two {
   margin-left: 210px;
@@ -190,7 +185,7 @@ p {
   height: 0;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
-  border-top: 75px solid rgba(202, 111, 78, .8);
+  border-top: 75px solid rgb(224, 113, 96);
 }
 .product-body-two {
   color: black;
@@ -207,13 +202,13 @@ p {
   background-color: white;
   padding: 100px 100px 300px 0;
   text-align: right;
-  color: rgb(40, 63, 155);
+  color: rgb(16, 1, 101);
 }
 .tools-section h2 {
   padding-top: 20px;
 }
 .tools-section .section-label {
-  background-color: rgb(40, 63, 155);
+  background-color: rgb(16, 1, 101);
   margin: 0;
 }
 
@@ -225,8 +220,8 @@ p {
   padding-top: 20px;
 }
 .case-studies-section .section-label, .clients-section .section-label {
-  background-color: rgb(202, 111, 78);
-  color: rgb(40, 63, 155);
+  background-color: rgb(224, 113, 96);
+  color: rgb(16, 1, 101);
   margin: 0;
 }
 .case-studies {
@@ -234,15 +229,19 @@ p {
   color: black;
 }
 .case-studies a {
-  color: rgb(40, 63, 155);
+  color: rgb(16, 1, 101);
   text-decoration: none;
+}
+.panel-body {
+  background-color: rgb(16, 1, 101);
 }
 .panel-body p {
   margin: 10px 0;
   padding: 0;
+  color: white;
 }
 .project-label {
-  color: rgb(34, 143, 113);
+  color: rgb(117, 189, 163);
   font-weight: 700;
 }
 
@@ -263,11 +262,11 @@ p {
 
 .contact-section {
   background-color: white;
-  color: rgb(40, 63, 155);
+  color: rgb(16, 1, 101);
   padding: 100px 0 100px 0;
 }
 .contact-section .section-label {
-  background-color: rgb(40, 63, 155);
+  background-color: rgb(16, 1, 101);
   margin: 0;
 }
 .contact-info {
@@ -300,11 +299,11 @@ h6 {
 
 .benefits-section {
   background-color: white;
-  color: rgb(40, 63, 155);
+  color: rgb(16, 1, 101);
   padding: 30px 0 50px 0;
 }
 .benefits-section .section-label {
-  background-color: rgb(40, 63, 155);
+  background-color: rgb(16, 1, 101);
 }
 .benefits {
   text-align: center;
@@ -318,6 +317,6 @@ h6 {
   padding: 50px 0 100px 0;
 }
 .position-section .section-label {
-  background-color: rgb(202, 111, 78);
-  color: rgb(40, 63, 155);
+  background-color: rgb(224, 113, 96);
+  color: rgb(16, 1, 101);
 }
