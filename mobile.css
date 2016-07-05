@@ -1,0 +1,144 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 414px) {
+
+  body {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 75px;
+  }
+  h3 {
+    font-size: 50px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .logo {
+    font-size: 55px;
+  }
+
+
+  .intro-section {
+    padding: 175px 35px 150px 35px;
+    color: white;
+  }
+  .intro-section p {
+    max-width: 60%;
+  }
+
+
+
+  .product-section-label {
+    width: 340px;
+  }
+
+  .product-title-one {
+    padding: 75px 90px 75px 90px;
+    width: 90%;
+    margin: auto;
+  }
+  .product-text-one p {
+    margin: 0;
+  }
+
+
+  .triangle-row {
+    width: 90%;
+    margin: auto;
+  }
+  #triangle-left {
+    margin-left: 37%;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 120px solid rgba(34, 143, 113, 1);
+    top: -7px;
+  }
+  #triangle-right {
+    display: none;
+  }
+
+  .product-title-two {
+    width: 90%;
+    margin: auto;
+    padding: 102px 0 110px 0;
+  }
+  .triangle-two {
+    margin-left: 42%;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 90px solid rgba(202, 111, 78, .8);
+  }
+  .product-body-two {
+    color: black;
+    padding: 50px 0 50px 0;
+    width: 80%;
+    margin: auto;
+  }
+
+
+  .tools-section {
+    padding-left: 30%;
+  }
+
+
+  .case-studies-section, .clients-section {
+    padding: 50px 35px 35px 35px;
+  }
+  .case-studies-section p {
+    padding-top: 40px;
+  }
+
+.panel-body {
+  background-color: blue;
+}
+  .panel-body p {
+    color: white;
+    font-size: 40px;
+  }
+
+
+  .logos {
+    text-align: center;
+    padding: 0;
+  }
+.image-here {
+  padding: 40px;
+}
+
+
+.glyphicon {
+  font-size: 200px;
+}
+
+
+.contact-section {
+  padding: 60px 35px 100px 35px;
+}
+.contact-section .section-label {
+  background-color: rgb(40, 63, 155);
+  margin: 0;
+}
+.contact-info {
+  padding-top: 20px;
+}
+
+footer {
+  background-color: black;
+  padding: 40px 40px 40px 40px;
+}
+.footer-right {
+  text-align: left;
+}
+.social-media {
+  font-size: 18px;
+}
+
+}

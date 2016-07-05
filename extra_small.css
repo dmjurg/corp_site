@@ -1,0 +1,11 @@
+@media only screen and (max-width: 767px) {
+
+
+
+.navigation {
+  background-color: red;
+  padding: 10px 0 10px 0;
+  border: 0;
+  margin-bottom: 0;
+}
+}
