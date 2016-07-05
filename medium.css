@@ -1,5 +1,10 @@
 @media only screen and (max-width: 1199px) {
 
+
+  h1 {
+    font-size: 50px;
+  }
+
   .triangle-row {
     width: 940px;
   }

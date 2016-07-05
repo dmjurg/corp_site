@@ -1,20 +1,38 @@
 <head>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=BenchNine|Archivo+Black' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="./large.css">
+  <link rel="stylesheet" type="text/css" href="./medium.css">
+  <link rel="stylesheet" type="text/css" href="./small.css">
+  <link rel="stylesheet" type="text/css" href="./extra_small.css">
+  <link rel="stylesheet" type="text/css" href="./mobile.css">
 </head>
 
 <body>
 
-  <nav class="navigation navbar navbar-fixed-top">
+  <nav class="navigation navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
-      <div class="logo"><a href="./index.html">COUNTERPOINT</a></div>
-      <ul class="nav nav-pills pull-right">
+
+      <div class="navbar-header">
+        <div class="logo"><a href="./index.html">COUNTERPOINT</a></div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-target" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-target">
+        <ul class="nav navbar-nav navbar-right">
           <li role="presentation"><a href="./index.html">HOME</a></li>
           <li role="presentation"><a href="#about">ABOUT US</a></li>
           <li role="presentation"><a href="#benefits">LIFE AT C20G</a></li>
           <li role="presentation"><a href="#positions">POSITIONS</a></li>
-      </ul>
+        </ul>
+      </div>
+
     </div>
   </nav>
 
@@ -26,47 +44,47 @@
 
   <div class="benefits-section" id="benefits">
     <div class="container">
-      <p><span class="section-label">Benefits</span></p>
+      <p><span class="section-label">BENEFITS</span></p>
       <div class="benefits">
 
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-xs-4">
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             <p>Unlimited Vacation</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-4">
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             <p>Free Medical</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-4">
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             <p>Casual Dress Code</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-xs-4">
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             <p>401K</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-4">
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             <p>On-site Fitness</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-4">
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             <p>Social Events</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-xs-4">
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             <p>Tech Talks</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-4">
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             <p>Snacks</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-4">
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             <p>Open Workspace</p>
           </div>
@@ -78,6 +96,7 @@
 
   <div class="position-section" id="positions">
     <div class="container">
+      <p><span class="section-label">NOW HIRING</span></p>
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h3>Associate BPM Consultant</h3>

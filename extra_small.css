@@ -1,11 +1,36 @@
 @media only screen and (max-width: 767px) {
 
+  .container {
+    margin: 0 30px 0 30px;
+  }
 
 
-.navigation {
-  background-color: red;
-  padding: 10px 0 10px 0;
-  border: 0;
-  margin-bottom: 0;
-}
+  .product-section-label {
+    width: 287px;
+  }
+  .product-title-one {
+    padding: 55px 70px 55px 70px;
+    width: 90%;
+    margin: auto;
+  }
+  .triangle-row {
+    width: 90%;
+    margin: auto;
+  }
+
+  #triangle-left {
+    margin-left: 17%;
+  }
+  #triangle-right {
+    margin-left: 48%;
+  }
+
+  .product-title-two {
+    width: 90%;
+    margin: auto;
+    padding: 82px 0 90px 0;
+  }
+  .triangle-two {
+    margin-left: 40%;
+  }
 }

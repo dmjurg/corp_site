@@ -1,9 +1,16 @@
 @media only screen and (max-width: 991px) {
 
+
+  .navbar-default .navbar-toggle {
+    border-color: white;
+  }
+  span.icon-bar {
+    color: white;
+  }
+
   .triangle-row {
     width: 720px;
   }
-
   #triangle-left {
     margin-left: 110px;
     border-left: 55px solid transparent;
