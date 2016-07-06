@@ -4,7 +4,7 @@ body {
   font-size: 26px;
   background-color: rgb(16, 1, 101);
   color: white;
-  font-family: 'BenchNine', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 a {
   color: white;
@@ -16,13 +16,13 @@ h1 {
   font-size: 55px;
   font-weight: 700;
   margin: 0;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 h2 {
   font-size: 50px;
   font-weight: 700;
   margin: 0;
-  font-family: 'Archivo Black', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
 }
 h3 {
   font-size: 40px;
@@ -31,7 +31,7 @@ h3 {
 h4 {
   font-size: 20px;
   margin: 0;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 p {
   margin-top: 20px;
@@ -42,12 +42,12 @@ p {
   font-size: 18px;
   margin: 10px;
   padding: 15px;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
 .navigation {
-  background-color: rgba(16, 1, 101, .8);
+  background-color: rgb(16, 1, 101);
   padding: 10px 0 10px 0;
   border: 0;
   margin-bottom: 0;
@@ -72,8 +72,12 @@ p {
 
 
 .intro-section {
-  padding: 175px 0 150px 0;
+  top: -74px;
+  padding: 175px 0 300px 0;
   color: white;
+  background: url("./img/background_comp.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 
@@ -157,7 +161,7 @@ p {
   margin-top: 15px;
   margin-bottom: 30px;
 }
-.benefit span {
+.prod-img {
   margin-top: 25px;
 }
 
@@ -200,7 +204,8 @@ p {
 
 .tools-section {
   background-color: white;
-  padding: 100px 100px 300px 0;
+  background: url("./img/tools.jpg");
+  padding: 75px 100px 300px 0;
   text-align: right;
   color: rgb(16, 1, 101);
 }
@@ -250,13 +255,8 @@ p {
   text-align: center;
   padding: 20px 0 100px 0;
 }
-.image-here {
+.client-logo {
   padding: 40px;
-}
-
-
-.glyphicon {
-  font-size: 70px;
 }
 
 

@@ -31,4 +31,16 @@
     border-top: 55px solid rgba(202, 111, 78, .8);
   }
 
+  .contact-section {
+    padding: 50px 0 50px 0;
+  }
+  .contact-img {
+    width: 216px;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .footer-right {
+    text-align: left;
+  }
+
 }
