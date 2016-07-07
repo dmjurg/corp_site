@@ -1,12 +1,25 @@
 @media only screen and (max-width: 991px) {
 
-
+  .logo {
+    padding-left: 15px;
+  }
   .navbar-default .navbar-toggle {
     border-color: white;
   }
   span.icon-bar {
     color: white;
   }
+
+  .intro-section {
+    background: url("./img/mobile_background_comp.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .intro-section p {
+    width: 55%;
+  }
+
+
 
   .triangle-row {
     width: 720px;
@@ -15,20 +28,34 @@
     margin-left: 110px;
     border-left: 55px solid transparent;
     border-right: 55px solid transparent;
-    border-top: 55px solid rgba(34, 143, 113, 1);
+    border-top: 55px solid rgb(117, 189, 163);
   }
   #triangle-right {
     margin-left: 390px;
     border-left: 55px solid transparent;
     border-right: 55px solid transparent;
-    border-top: 55px solid rgba(34, 143, 113, 1);
+    border-top: 55px solid rgb(117, 189, 163);
   }
 
   .triangle-two {
     margin-left: 300px;
     border-left: 55px solid transparent;
     border-right: 55px solid transparent;
-    border-top: 55px solid rgba(202, 111, 78, .8);
+    border-top: 55px solid rgb(224, 113, 96);
+  }
+
+
+  .tools-section {
+    background: url("./img/mobile_tools.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 105px 0px 600px 0;
+    text-align: right;
+  }
+
+  .client-logo {
+    padding: 20px;
+    max-width: 200px;
   }
 
   .contact-section {
@@ -38,6 +65,9 @@
     width: 216px;
     margin: auto;
     padding-bottom: 40px;
+  }
+  .contact-section h3 {
+    font-size: 31px;
   }
   .footer-right {
     text-align: left;

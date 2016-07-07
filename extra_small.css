@@ -4,9 +4,8 @@
     margin: 0 30px 0 30px;
   }
 
-
   .product-section-label {
-    width: 287px;
+    width: 263px;
   }
   .product-title-one {
     padding: 55px 70px 55px 70px;
@@ -32,5 +31,11 @@
   }
   .triangle-two {
     margin-left: 40%;
+  }
+
+
+  .client-logo {
+    padding: 40px;
+    max-width: 300px;
   }
 }

@@ -5,6 +5,10 @@
     font-size: 50px;
   }
 
+  .tools-section p, .tools-section h2 {
+    padding-right: 15px;
+  }
+
   .triangle-row {
     width: 940px;
   }
@@ -13,5 +17,8 @@
     margin-left: 160px;
   }
 
+  .tools-section {
+    padding: 75px 0 300px 0;
+  }
 
 }
