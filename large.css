@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding-top: 70px;
   font-size: 26px;
-  background-color: rgb(16, 1, 101);
   color: white;
   font-family: 'Oswald', sans-serif;
 }
@@ -203,9 +202,8 @@ p {
 
 
 .tools-section {
-  background-color: white;
-  background: url("./img/tools.jpg");
-  padding: 75px 100px 300px 0;
+  background: url("./img/tools.jpg") top center no-repeat;
+  padding: 75px 100px 400px 0;
   text-align: right;
   color: rgb(16, 1, 101);
 }
@@ -218,8 +216,15 @@ p {
 }
 
 
+.our-work-section {
+  position: relative;
+  top: -100px;
+  background-color: rgb(16, 1, 101);
+  -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+}
 .case-studies-section {
-  padding: 50px 0 20px 0;
+  padding: 150px 0 20px 0;
 }
 .case-studies-section p {
   padding-top: 20px;
@@ -292,13 +297,14 @@ h6 {
 }
 
 
+/* careers page */
 
 .about-section {
+  background-color: rgb(16, 1, 101);
   padding: 175px 0 175px 0;
 }
 
 .benefits-section {
-  background-color: white;
   color: rgb(16, 1, 101);
   padding: 30px 0 50px 0;
 }
@@ -314,6 +320,7 @@ h6 {
 }
 
 .position-section {
+  background-color: rgb(16, 1, 101);
   padding: 50px 0 100px 0;
 }
 .position-section .section-label {
