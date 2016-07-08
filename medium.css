@@ -1,24 +1,25 @@
 @media only screen and (max-width: 1199px) {
 
-
   h1 {
     font-size: 50px;
-  }
-
-  .tools-section p, .tools-section h2 {
-    padding-right: 15px;
   }
 
   .triangle-row {
     width: 940px;
   }
-
   .triangle-two {
     margin-left: 160px;
   }
 
   .tools-section {
     padding: 75px 0 300px 0;
+  }
+  .tools-section p, .tools-section h2 {
+    padding-right: 15px;
+  }
+
+  .contact-info h3 {
+    font-size: 35px;
   }
 
 }

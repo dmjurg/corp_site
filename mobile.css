@@ -29,6 +29,24 @@
   }
 
 
+  .navbar-default .navbar-toggle {
+    margin: 60px 50px 0 0;
+    border-color: white;
+    border-width: 5px;
+    height: 125px;
+    width: 150px;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    width: 118px;
+    height: 10px;
+    margin: 15px 0;
+  }
+  .navbar-default .navbar-nav > li {
+    margin: 25px 0 25px 50px;
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
 
   .intro-section {
     padding: 350px 35px 150px 35px;
@@ -51,7 +69,7 @@
     font-family: 'Montserrat', sans-serif;
   }
   .product-section-label {
-    width: 620px;
+    width: 652px;
   }
 
 
@@ -110,11 +128,14 @@
 
 
   .tools-section {
-    padding: 300px 0px 600px 0;
+    padding: 320px 0px 600px 0;
   }
 
   .case-studies-section, .clients-section {
-    padding: 120px 35px 35px 35px;
+    padding: 50px 35px 35px 35px;
+  }
+  .case-studies-section {
+    padding-top: 200px;
   }
   .case-studies-section p {
     padding-top: 40px;
@@ -168,7 +189,7 @@
     padding: 50px 20px;
   }
   footer h6 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .footer-left img {
     width: 400px;
