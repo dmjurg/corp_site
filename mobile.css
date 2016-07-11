@@ -1,19 +1,19 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 414px) {
 
   body {
-    font-size: 75px;
+    font-size: 40px;
   }
   h1 {
-    font-size: 100px;
+    font-size: 90px;
   }
   h2 {
-    font-size: 85px;
+    font-size: 80px;
   }
   h3 {
-    font-size: 85px;
+    font-size: 65px;
   }
   h4 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .container {
@@ -22,23 +22,22 @@
     width: 100%;
   }
   .logo img {
-    height: 150px;
+    height: 100px;
   }
   .logo {
-    margin: 50px 0 50px 50px;
+    margin: 25px 0 25px 25px;
   }
 
 
   .navbar-default .navbar-toggle {
-    margin: 60px 50px 0 0;
-    border-color: white;
-    border-width: 5px;
+    margin: 10px 35px 0 0;
+    border: none;
     height: 125px;
     width: 150px;
   }
   .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
-    width: 118px;
+    width: 130px;
     height: 10px;
     margin: 15px 0;
   }
@@ -49,17 +48,25 @@
   }
 
   .intro-section {
-    padding: 350px 35px 150px 35px;
+    padding: 350px 35px 275px 35px;
     color: white;
-    background: rgb(16, 1, 101);
+    background: url('./img/mobile_intro_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+/*    background: rgb(16, 1, 101);*/
   }
   .intro-section p {
-    width: 100%;
+    width: 50%;
+  }
+  #intro-comp {
+    top: 850px;
+    left: 8%;
+    height: 600px;
   }
 
 
   .sub-heading-section {
-    padding: 100px 0 100px 0;
+    padding: 300px 0 50px 0;
     text-align: center;
   }
 
@@ -123,12 +130,13 @@
   }
   .product-body-two img {
     width: 250px;
+    padding-bottom: 100px;
   }
 
 
 
   .tools-section {
-    padding: 320px 0px 600px 0;
+    padding: 100px 0px 700px 0;
   }
 
   .case-studies-section, .clients-section {
@@ -151,7 +159,10 @@
     color: white;
     font-size: 50px;
     padding: 0;
-    margin-top: 10px;
+    margin: 10px;
+  }
+  .project-label {
+    padding-top: 40px;
   }
 
 
@@ -186,16 +197,19 @@
 
 
   footer {
-    padding: 50px 20px;
+    padding: 20px 20px;
   }
   footer h6 {
     font-size: 40px;
+  }
+  .footer-left {
+    padding-bottom: 30px;
   }
   .footer-left img {
     width: 400px;
   }
   .footer-right img {
-    width: 100px;
+    width: 70px;
   }
   .social-media {
     font-size: 18px;

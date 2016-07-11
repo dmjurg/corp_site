@@ -4,19 +4,24 @@
     padding-left: 15px;
   }
   .navbar-default .navbar-toggle {
-    border-color: white;
+    border: none;
   }
   .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
   }
 
   .intro-section {
-    background: url("./img/mobile_background_comp.jpg");
+    background: url("./img/mobile_intro_background.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
   .intro-section p {
     width: 55%;
+  }
+  #intro-comp {
+    top: 350px;
+    left: 25%;
+    height: 450px;
   }
 
 
@@ -46,7 +51,7 @@
 
 
   .tools-section {
-    background: url("./img/mobile_tools.png");
+    background: url("./img/mobile_tools.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 105px 0px 600px 0;

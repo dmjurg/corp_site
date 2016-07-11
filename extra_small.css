@@ -4,6 +4,19 @@
     margin: 0 30px 0 30px;
   }
 
+  #intro-comp {
+    top: 400px;
+    left: 20%;
+    height: 400px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    #intro-comp {
+      left: 10%;
+      top: 600px;
+    }
+  }
+
   .product-section-label {
     width: 303px;
   }

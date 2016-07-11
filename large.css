@@ -78,23 +78,46 @@ p {
 
 .intro-section {
   top: -74px;
-  padding: 175px 0 300px 0;
+  padding: 175px 0 250px 0;
   color: white;
   position: relative;
-  background: url("./img/background_comp.jpg");
+  background: url("./img/intro_background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
+#intro-comp {
+  top: 250px;
+  left: 30%;
+  position: absolute;
+  z-index: 2;
+  height: 600px;
+}
 
+@media only screen and (max-width: 1349px) {
+  #intro-comp {
+    top: 250px;
+    left: 25%;
+    position: absolute;
+    z-index: 2;
+    height: 550px;
+  }
+
+}
 
 .sub-heading-section {
+  position: relative;
+  top: -220px;
   background-color: white;
   color: rgb(16, 1, 101);
-  padding: 100px 0 100px 0;
+  padding: 300px 0 0 0;
   text-align: center;
+  -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
 }
 
 .product-section-label {
+  position: relative;
+  top: -100px;
   height: 0;
   width: 303px;
   margin: auto;
@@ -112,6 +135,8 @@ p {
 }
 
 .products-section {
+  position: relative;
+  top: -100px;
   background-color: white;
   text-align: center;
 }
@@ -173,6 +198,8 @@ p {
 
 
 .additional-products-section {
+  position: relative;
+  top: -100px;
   margin-top: -225px;
   background-color: white;
   text-align: center;
@@ -209,6 +236,8 @@ p {
 
 
 .tools-section {
+  position: relative;
+  top: -100px;
   background: url("./img/tools.jpg") top center no-repeat;
   padding: 75px 100px 400px 0;
   text-align: right;
@@ -225,8 +254,9 @@ p {
 
 .our-work-section {
   position: relative;
-  top: -100px;
+  top: -200px;
   background-color: rgb(16, 1, 101);
+  background: url("./img/triangles.jpg");
   -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
 }
@@ -273,9 +303,11 @@ p {
 
 
 .contact-section {
+  position: relative;
+  top: -100px;
   background-color: white;
   color: rgb(16, 1, 101);
-  padding: 0 0 100px 0;
+  padding: 0;
 }
 .contact-section .section-label {
   background-color: rgb(16, 1, 101);
@@ -310,6 +342,7 @@ h6 {
 
 .about-section {
   background-color: rgb(16, 1, 101);
+    background: url("./img/triangles.jpg");
   padding: 125px 0 125px 0;
   text-align: center;
 }
@@ -336,6 +369,7 @@ h6 {
 
 .position-section {
   background-color: rgb(16, 1, 101);
+  background: url("./img/triangles.jpg");
   padding: 50px 0 100px 0;
 }
 .position-section .section-label {
