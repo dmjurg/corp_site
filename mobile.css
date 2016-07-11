@@ -3,9 +3,6 @@
   body {
     font-size: 40px;
   }
-  .col-* {
-    padding: 0;
-  }
   h1 {
     font-size: 90px;
   }
@@ -33,10 +30,14 @@
 
 
   .navbar-default .navbar-toggle {
-    margin: 10px 35px 0 0;
+    margin-top: 10px;
     border: none;
     height: 125px;
+    padding-right: 50px;
   }
+  .navbar-default .navbar-toggle:hover {
+    background-color: rgb(16, 1, 101);
+  } 
   .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
     width: 130px;
@@ -97,10 +98,10 @@
     margin: auto;
   }
   #triangle-left {
-    margin: 0 0 0 37%;
-    border-left: 120px solid transparent;
-    border-right: 120px solid transparent;
-    border-top: 120px solid rgb(117, 189, 163);
+    margin: 0 0 0 40%;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid rgb(117, 189, 163);
     top: -7px;
   }
   #triangle-right {
@@ -138,7 +139,7 @@
 
 
   .tools-section {
-    padding: 100px 0px 700px 0;
+    padding: 100px 50px 700px 0;
   }
   .tools-section h2 {
     padding: 0;

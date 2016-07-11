@@ -93,7 +93,6 @@ p {
   width: 60vw;
 }
 
-
 .sub-heading-section {
   position: relative;
   top: -220px;
@@ -105,7 +104,7 @@ p {
   clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
 }
 .sub-heading-section p {
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 

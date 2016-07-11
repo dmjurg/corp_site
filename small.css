@@ -23,6 +23,11 @@
     width: 65vw;
   }
 
+  .sub-heading-section p {
+    width: 80%;
+    margin: auto;
+  }
+
 
 
   .triangle-row {
