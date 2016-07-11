@@ -86,23 +86,13 @@ p {
   background-repeat: no-repeat;
 }
 #intro-comp {
-  top: 250px;
-  left: 30%;
+  top: 275px;
+  right: 10%;
   position: absolute;
   z-index: 2;
-  height: 600px;
+  width: 60vw;
 }
 
-@media only screen and (max-width: 1349px) {
-  #intro-comp {
-    top: 250px;
-    left: 25%;
-    position: absolute;
-    z-index: 2;
-    height: 550px;
-  }
-
-}
 
 .sub-heading-section {
   position: relative;

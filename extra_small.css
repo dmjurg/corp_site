@@ -5,15 +5,20 @@
   }
 
   #intro-comp {
-    top: 400px;
-    left: 20%;
-    height: 400px;
+    top: 450px;
+    width: 75vw;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 640px) {
     #intro-comp {
-      left: 10%;
       top: 600px;
+      width: 85%;
+    }
+  }
+  @media only screen and (max-width: 547px) {
+    #intro-comp {
+      top: 700px;
+      width: 85%;
     }
   }
 
