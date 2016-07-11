@@ -310,7 +310,8 @@ h6 {
 
 .about-section {
   background-color: rgb(16, 1, 101);
-  padding: 175px 0 175px 0;
+  padding: 125px 0 125px 0;
+  text-align: center;
 }
 
 .benefits-section {
@@ -319,6 +320,10 @@ h6 {
 }
 .benefits-section .section-label {
   background-color: rgb(16, 1, 101);
+}
+.benefits-section .benefit {
+  background-color: white;
+  color: rgb(16, 1, 101);
 }
 .benefits {
   text-align: center;
@@ -336,4 +341,11 @@ h6 {
 .position-section .section-label {
   background-color: rgb(224, 113, 96);
   color: rgb(16, 1, 101);
+}
+.job-description {
+  padding: 20px 0;
+}
+.job-description h2 {
+  text-align: center;
+  padding-bottom: 15px;
 }

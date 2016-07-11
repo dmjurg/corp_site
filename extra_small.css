@@ -38,4 +38,11 @@
     padding: 40px;
     max-width: 300px;
   }
+
+  .position-section .apply-now {
+    padding: 0;
+    background-color: rgb(16, 1, 101);
+    color: rgb(224, 113, 96);
+  }
+
 }
