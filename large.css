@@ -104,6 +104,10 @@ p {
   -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
 }
+.sub-heading-section p {
+  width: 80%;
+  margin: auto;
+}
 
 .product-section-label {
   position: relative;
@@ -217,7 +221,7 @@ p {
 .product-body-two {
   color: black;
   padding: 50px 0 50px 0;
-  width: 450px;
+  width: 90%;
   margin: auto;
 }
 .product-body-two h3 {
@@ -234,6 +238,7 @@ p {
   color: rgb(16, 1, 101);
 }
 .tools-section h2 {
+  text-align: right;
   padding-top: 20px;
 }
 .tools-section .section-label {

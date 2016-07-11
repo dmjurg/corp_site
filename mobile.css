@@ -3,6 +3,9 @@
   body {
     font-size: 40px;
   }
+  .col-* {
+    padding: 0;
+  }
   h1 {
     font-size: 90px;
   }
@@ -33,7 +36,6 @@
     margin: 10px 35px 0 0;
     border: none;
     height: 125px;
-    width: 150px;
   }
   .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
@@ -95,7 +97,7 @@
     margin: auto;
   }
   #triangle-left {
-    margin-left: 37%;
+    margin: 0 0 0 37%;
     border-left: 120px solid transparent;
     border-right: 120px solid transparent;
     border-top: 120px solid rgb(117, 189, 163);
@@ -108,7 +110,7 @@
     margin: 50px 0 50px 0;
   }
   .prod-img {
-    width: 200px;
+    width: 20vw;
   }
 
   .product-title-two {
@@ -117,7 +119,7 @@
     padding: 102px 0 110px 0;
   }
   .triangle-two {
-    margin-left: 42%;
+    margin: 0 0 0 42%;
     border-left: 90px solid transparent;
     border-right: 90px solid transparent;
     border-top: 90px solid rgb(224, 113, 96);
@@ -137,6 +139,12 @@
 
   .tools-section {
     padding: 100px 0px 700px 0;
+  }
+  .tools-section h2 {
+    padding: 0;
+  }
+  .tools-section p {
+    padding: 0;
   }
 
   .case-studies-section, .clients-section {
@@ -185,15 +193,13 @@
   .contact-info {
     padding-top: 20px;
   }
-  .vert-line {
-    display: none;
-  }
   .contact-section h2 {
     font-size: 78px;
   }
   .contact-section h3 {
-    font-size: 70px;
+    font-size: 40px;
   }
+
 
 
   footer {
