@@ -80,8 +80,9 @@ p {
   top: -74px;
   padding: 175px 0 300px 0;
   color: white;
+  position: relative;
   background: url("./img/background_comp.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -323,8 +324,9 @@ h6 {
   text-align: center;
   padding-top: 20px;
 }
-.benefits .glyphicon {
-  padding-top: 20px;
+.fa {
+  font-size: 50px;
+  padding-top: 40px;
 }
 
 .position-section {
