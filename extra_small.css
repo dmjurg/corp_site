@@ -5,20 +5,26 @@
   }
 
   #intro-comp {
-    top: 450px;
+    top: 350px;
     width: 75vw;
+    right: 5%;
   }
 
   @media only screen and (max-width: 640px) {
     #intro-comp {
-      top: 600px;
+      top: 400px;
       width: 85%;
     }
   }
   @media only screen and (max-width: 547px) {
     #intro-comp {
-      top: 700px;
+      top: 550px;
       width: 85%;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    #intro-comp {
+      display: none;
     }
   }
 
@@ -36,10 +42,14 @@
   }
 
   #triangle-left {
-    margin-left: 17%;
+    margin-left: 40%;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 55px solid rgb(117, 189, 163);
+    top: -7px;
   }
   #triangle-right {
-    margin-left: 48%;
+    display: none;
   }
 
   .product-title-two {
@@ -54,6 +64,13 @@
     width: 90%;
   }
 
+  .tools-section {
+    background: url("./img/mobile_tools_xs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top; 
+    padding: 100px 0px 500px 200px;
+  }
 
   .client-logo {
     padding: 40px;

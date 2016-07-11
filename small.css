@@ -11,6 +11,8 @@
   }
 
   .intro-section {
+    top: -74px;
+    padding: 150px 0 200px 0;
     background: url("./img/mobile_intro_background.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -19,10 +21,14 @@
     width: 55%;
   }
   #intro-comp {
-    top: 400px;
-    width: 65vw;
+    top: 350px;
+    width: 580px;
+    right: 10%;
   }
 
+  .sub-heading-section {
+    padding-top: 250px;
+  }
   .sub-heading-section p {
     width: 80%;
     margin: auto;
@@ -54,10 +60,10 @@
   }
 
   .tools-section {
-    background: url("./img/mobile_tools.jpg");
-    background-size: 100% 100%;
+    background: url("./img/mobile_tools_xs.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 105px 0px 600px 0;
+    padding: 50px 0px 400px 0;
     text-align: right;
   }
 
@@ -67,11 +73,11 @@
   }
 
   .contact-section {
-    padding: 0 0 100px 0;
+    padding: 0;
   }
   .contact-img {
     width: 216px;
-    margin: auto;
+/*    margin: auto;*/
     padding-bottom: 40px;
   }
   .contact-section h3 {

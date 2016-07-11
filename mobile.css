@@ -139,7 +139,11 @@
 
 
   .tools-section {
-    padding: 100px 50px 700px 0;
+    background: url('./img/mobile_tools_xs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    padding: 100px 50px 400px 0;
   }
   .tools-section h2 {
     padding: 0;

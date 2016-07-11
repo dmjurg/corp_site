@@ -6,9 +6,13 @@
 
 
   #intro-comp {
-    top: 350px;
-    width: 65vw;
+    top: 300px;
+    width: 745px;
   }
+  .sub-heading-section {
+    padding-top: 250px;
+  }
+
   .triangle-row {
     width: 940px;
   }
