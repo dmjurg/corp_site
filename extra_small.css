@@ -6,20 +6,20 @@
 
   #intro-comp {
     top: 350px;
-    width: 75vw;
+    width: 550px;
     right: 5%;
   }
 
   @media only screen and (max-width: 640px) {
     #intro-comp {
-      top: 400px;
-      width: 85%;
+      top: 425px;
+      width: 500px;
     }
   }
   @media only screen and (max-width: 547px) {
     #intro-comp {
-      top: 550px;
-      width: 85%;
+      top: 600px;
+      width: 400px;
     }
   }
   @media only screen and (max-width: 450px) {
@@ -79,7 +79,7 @@
 
   .position-section .apply-now {
     padding: 0;
-    background-color: rgb(16, 1, 101);
+    background-color: transparent;
     color: rgb(224, 113, 96);
   }
 

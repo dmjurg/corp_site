@@ -18,7 +18,7 @@
 
   .container {
     margin: 0;
-    padding: 0;
+    padding: 0 15px;
     width: 100%;
   }
   .logo img {
@@ -40,7 +40,7 @@
   } 
   .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
-    width: 130px;
+    width: 115px;
     height: 10px;
     margin: 15px 0;
   }
@@ -62,9 +62,9 @@
     width: 50%;
   }
   #intro-comp {
-    top: 900px;
+    top: 800px;
     right: 8%;
-    width: 80vw;
+    width: 90vw;
   }
 
 
@@ -226,4 +226,20 @@
     font-size: 18px;
   }
 
+
+  /* careers page */
+  .about-section {
+    padding: 250px 50px 200px 50px;
+  }
+  .fa {
+    font-size: 70px;
+  }
+  .job-description {
+    padding: 30px;
+  }
+  .position-section .apply-now {
+    padding: 0 30px;
+    background-color: transparent;
+    color: rgb(224, 113, 96);
+  }
 }

@@ -85,12 +85,19 @@ p {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 #intro-comp {
   top: 200px;
-  right: 15%;
+  right: 5%;
   position: absolute;
   z-index: 2;
   width: 970px;
+}
+
+@media only screen and (min-width: 1600px) {
+  #intro-comp {
+    right: 15%;
+  }
 }
 
 .sub-heading-section {
@@ -273,6 +280,9 @@ p {
   color: rgb(16, 1, 101);
   text-decoration: none;
 }
+.case-studies a:hover {
+  color: rgb(224, 113, 96);
+}
 .panel-body {
   background-color: rgb(16, 1, 101);
 }
@@ -312,6 +322,10 @@ p {
 }
 .contact-info {
   padding-top: 20px;
+}
+.email {
+  text-decoration: underline;
+  color: rgb(224, 113, 96);
 }
 
 
@@ -376,4 +390,8 @@ h6 {
 .job-description h2 {
   text-align: center;
   padding-bottom: 15px;
+}
+.email-light {
+  text-decoration: underline;
+  color: white;
 }
