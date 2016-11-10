@@ -119,7 +119,7 @@ p {
   position: relative;
   top: -100px;
   height: 0;
-  width: 303px;
+  width: 310px;
   margin: auto;
 }
 .product-section-label p {
@@ -177,6 +177,11 @@ p {
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
   border-top: 75px solid rgb(117, 189, 163);
+}
+@media screen\0 {
+  #triangle-right {
+    top: 20px;
+  }
 }
 .product-body-one {
   position: relative;
@@ -327,6 +332,9 @@ p {
   text-decoration: underline;
   color: rgb(224, 113, 96);
 }
+.address {
+  font-size: 35px;
+}
 
 
 footer {
@@ -348,10 +356,17 @@ h6 {
 
 /* careers page */
 
+.careers-intro-section {
+  background-color: rgb(16, 1, 101);
+  background: url("./img/four_img_500.jpg") center;
+  background-repeat: repeat-x;
+  height: 500px;
+}
+
 .about-section {
   background-color: rgb(16, 1, 101);
-    background: url("./img/triangles.jpg");
-  padding: 125px 0 125px 0;
+  background: url("./img/triangles.jpg");
+  padding: 75px 0 75px 0;
   text-align: center;
 }
 

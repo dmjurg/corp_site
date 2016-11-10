@@ -31,4 +31,15 @@
     font-size: 35px;
   }
 
+  h3.address {
+    font-size: 30px;
+  }
+
+  .careers-intro-section {
+    background-color: rgb(16, 1, 101);
+    background: url("./img/four_img_400.jpg") center;
+    background-repeat: repeat-x;
+    height: 400px;
+  }
+
 }
